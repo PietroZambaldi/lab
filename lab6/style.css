@@ -1,0 +1,12 @@
+#canva{
+    display: flex;
+    text-align: center;
+    border-style: solid;
+    border: 2px solid;
+    background-color: wheat;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+}

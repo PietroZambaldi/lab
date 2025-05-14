@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    border: 10px solid white;
+}
+
+ 
+
+
+.container {
+    display: flex;
+    background-color: #ffe4c4;
+    justify-content: space-between;
+    border: 5px solid blue;
+}
+.item {
+    width: 200px;
+    height: 200px;
+}
+
+.containerlv{
+    display: flex;
+    background-color: #87cefa;
+    justify-content: center;
+    gap: 40px ;
+    height: 100px;
+    font-size: x-large;
+}
+   .itemlv {
+    color: #8b0000;
+
+   }
+   
+   .containerf{
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #ffff00;
+    
+
+    height: 175px;
+   }
+.itemfim{
+    width: auto;
+    height: auto;
+}
+
+.containersites{
+    display: flex;
+    position: relative;
+    left: 650px;
+    background-color: #ffff00;
+    justify-content: flex-start;
+    height: 200px;
+    width: 600px;
+}
+
+.containerimg{
+    display:flex;
+    justify-content: space-around;
+}
+
+.containeriframe{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.containertabela{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#titulo1 {
+    color: #006400
+}
+
+#pintroducao {
+    color: #4b0082;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+#introducao {
+    color: #808080
+}
+
+/*#nomeil {
+    color: #ff0000
+}*/
+
+#desejamos {
+   font-size: 15px;
+   font-family: "Comic Sans MS"
+}
