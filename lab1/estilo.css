@@ -1,0 +1,43 @@
+#nome{
+    color: #800080 
+}
+
+#rad{
+    color: #ffd700
+}
+
+#palido{
+    color: #f0ffff
+}
+
+#cavazio{
+    color: #808080
+}
+
+#receptaculo{
+    color: #0000ff
+}
+
+#hornet{
+    color: #ff0000
+}
+
+
+
+body{
+    text-align: center;
+}
+
+
+#link:hover {
+    a{color: #00bfff}
+    
+}
+
+#link2:hover {
+   a{color: #f5f5f5}
+}
+
+#link3:hover {
+    a{color: #ff0000}
+}
