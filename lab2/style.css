@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    background-color: #333;
+    padding: 0.5em;
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #333;
+}
+
+#titulo-principal,
+#titulo-projetos {
+    text-align: center;
+}
+
+.descricao {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
