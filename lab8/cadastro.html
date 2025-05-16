@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Atividade 8- cadastro</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Cadastre-se</h1>
+        <h3>Digite suas informações: (método: post, action: /inicio)</h3>
+        <form action="/cadastro" method="get">
+            <p>--------------------------------------------</p>
+            <p>Nome: <input type="text" name="nome"></p>
+            <br>
+            <p>User: <input type="text" name="username"> </p>
+            <br>
+            <p>Senha: <input type="password" name="senha"></p>
+            <br>
+            <p>Data de nascimento: <input type="date" name="data"></p>
+            <input type="submit" value="Enviar">
+            <p>--------------------------------------------</p>
+        </form>
+    </body>
+</html>
